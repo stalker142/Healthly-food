@@ -772,10 +772,9 @@ flex-wrap: wrap;
     font-family: 'Cormorant',serif;
     margin-bottom: 17px;
 }
-@media (max-width:1350px){
-    .catalog-info__title{
-        min-height: 64px;
-    }
+@media (max-width: 1350px)
+.catalog-info__title {
+    min-height: 74px;
 }
 .catalog-info__description{
     color:rgba(39, 48, 15, 0.7);
