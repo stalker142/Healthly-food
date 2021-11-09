@@ -774,16 +774,11 @@ flex-wrap: wrap;
 }
 @media (max-width: 1420px){
 .catalog-info__title {
-	min-height: 74px;
+	min-height: 30px;
 	font-size: 1.475rem;
 }
 }
-@media (max-width: 1290px){
-.catalog-info__title {
-	min-height: 74px;
-	font-size: 1.475rem;
-}
-}
+
 .catalog-info__description{
     color:rgba(39, 48, 15, 0.7);
     line-height: 1.5;
