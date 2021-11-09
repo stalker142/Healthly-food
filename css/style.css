@@ -778,12 +778,23 @@ flex-wrap: wrap;
 	font-size: 1.475rem;
 }
 }
+@media (max-width: 1290px){
+.catalog-info__title {
+	min-height: 74px;
+	font-size: 1.475rem;
+}
+}
 .catalog-info__description{
     color:rgba(39, 48, 15, 0.7);
     line-height: 1.5;
     margin-bottom: 0;
     min-height: 52px;
     max-width: 96%;
+}
+@media (max-width: 1290px){
+.catalog-info__description {
+	font-size: 0.8rem;
+}
 }
 .catalog-info__price{
     font-size: 1.5rem;
@@ -806,7 +817,7 @@ flex-wrap: wrap;
         padding: 1rem 1rem;
     }
 }
-@media (max-width:1250px){
+@media (max-width:1260px){
     .catalog-footer__btn{
         padding: 0.3rem 0.6rem;
     }
