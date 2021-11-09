@@ -772,9 +772,10 @@ flex-wrap: wrap;
     font-family: 'Cormorant',serif;
     margin-bottom: 17px;
 }
-@media (max-width: 1350px){
+@media (max-width: 1420px){
 .catalog-info__title {
-    min-height: 74px;
+	min-height: 74px;
+	font-size: 1.475rem;
 }
 }
 .catalog-info__description{
@@ -800,9 +801,14 @@ flex-wrap: wrap;
     cursor: pointer;
     font-size: 0.87rem;
 }
-@media (max-width:1350px){
+@media (max-width:1390px){
     .catalog-footer__btn{
         padding: 1rem 1rem;
+    }
+}
+@media (max-width:1250px){
+    .catalog-footer__btn{
+        padding: 0.3rem 0.6rem;
     }
 }
 .catalog-count{
